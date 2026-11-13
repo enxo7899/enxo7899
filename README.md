@@ -10,7 +10,7 @@ I build practical AI systems for businesses: chatbots and agents that take real 
 |---|---|---|
 | **AI chatbot for your website and WhatsApp**: answers from your own info, books, captures leads, hands off to a person | [Try it](https://enxo7899.github.io/ai-chat-assistant/) | [ai-chat-assistant](https://github.com/enxo7899/ai-chat-assistant) |
 | **AI booking agent / MCP server** with guardrails, staff approvals and an audit log | [Try it](https://enxo7899.github.io/bookings-mcp/) | [bookings-mcp](https://github.com/enxo7899/bookings-mcp) |
-| **Business automation with n8n, Make or Zapier**: enquiry triage, invoice extraction, daily reports | [Screenshots](https://github.com/enxo7899/n8n-business-automations#the-workflows) | [n8n-business-automations](https://github.com/enxo7899/n8n-business-automations) |
+| **Business automation with n8n, Make or Zapier**: enquiry triage, invoice extraction, daily reports | [Live demo](https://enxo7899.github.io/n8n-business-automations/) | [n8n-business-automations](https://github.com/enxo7899/n8n-business-automations) |
 | **Messy emails and spreadsheets into a clean CRM**, with measured accuracy | [Try it](https://enxo7899.github.io/inbox-to-crm/) | [inbox-to-crm](https://github.com/enxo7899/inbox-to-crm) |
 | **Chat with your documents (RAG)** with cited answers and an evaluation harness | | [evidence-desk](https://github.com/enxo7899/evidence-desk) |
 | **Test and red-team your chatbot or agent** before customers find the problems | | [support-agent-evals](https://github.com/enxo7899/support-agent-evals) · [agent-action-audit](https://github.com/enxo7899/agent-action-audit) |
