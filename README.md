@@ -4,6 +4,17 @@ Applied AI Engineer · MSc Artificial Intelligence (Distinction), City, Universi
 
 I build practical AI systems for businesses: chatbots and agents that take real actions safely, automations that remove admin work, document Q&A with sources, and the testing that proves they work. Since 2024 I've also evaluated and red-teamed frontier language models, so I care a lot about how AI systems fail and how to test for it.
 
+## Engineering deep dives
+
+Four projects that show how I build AI systems under the hood. Each runs live in the browser, with tests and measured results.
+
+| Project | What it shows | Live demo |
+|---|---|---|
+| **[llm-gateway](https://github.com/enxo7899/llm-gateway)** | One gateway in front of several model providers: routing, fallbacks, circuit breakers, per-team budgets, caching and PII redaction. In a simulated day with outages, apps saw 0.07% errors against 2.1% for the most reliable single provider, and no personal data reached a provider. | [Open the console](https://enxo7899.github.io/llm-gateway/) |
+| **[llm-eval-harness](https://github.com/enxo7899/llm-eval-harness)** | Regression testing for AI features: confidence intervals, paired significance tests, a judge measured against human ratings, and a release gate that blocks a version that gets worse for one language. | [Read the report](https://enxo7899.github.io/llm-eval-harness/) |
+| **[agent-runtime](https://github.com/enxo7899/agent-runtime)** | A tool-using agent runtime built from scratch: typed tools, budgets, human approval for refunds, injection guardrails, tracing with replay. Zero unsafe actions across 1,230 evaluated runs, including runs where 30% of tool calls fail. | [Run an agent](https://enxo7899.github.io/agent-runtime/) |
+| **[transformer-from-scratch](https://github.com/enxo7899/transformer-from-scratch)** | A small language model written in numpy with hand-written backpropagation and gradient checks, running in the browser with its attention visible. Perplexity 11.1 against 37.8 for a bigram baseline. | [Look inside](https://enxo7899.github.io/transformer-from-scratch/) |
+
 ## What I can build for you
 
 | Service | Live demo | Code |
