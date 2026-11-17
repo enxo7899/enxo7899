@@ -6,7 +6,7 @@ I build practical AI systems for businesses: chatbots and agents that take real 
 
 ## Engineering deep dives
 
-Four projects that show how I build AI systems under the hood. Each runs live in the browser, with tests and measured results.
+Eight projects that show how I build AI systems under the hood. Each runs live in the browser, with tests and measured results.
 
 | Project | What it shows | Live demo |
 |---|---|---|
@@ -14,6 +14,10 @@ Four projects that show how I build AI systems under the hood. Each runs live in
 | **[llm-eval-harness](https://github.com/enxo7899/llm-eval-harness)** | Regression testing for AI features: confidence intervals, paired significance tests, a judge measured against human ratings, and a release gate that blocks a version that gets worse for one language. | [Read the report](https://enxo7899.github.io/llm-eval-harness/) |
 | **[agent-runtime](https://github.com/enxo7899/agent-runtime)** | A tool-using agent runtime built from scratch: typed tools, budgets, human approval for refunds, injection guardrails, tracing with replay. Zero unsafe actions across 1,230 evaluated runs, including runs where 30% of tool calls fail. | [Run an agent](https://enxo7899.github.io/agent-runtime/) |
 | **[transformer-from-scratch](https://github.com/enxo7899/transformer-from-scratch)** | A small language model written in numpy with hand-written backpropagation and gradient checks, running in the browser with its attention visible. Perplexity 11.1 against 37.8 for a bigram baseline. | [Look inside](https://enxo7899.github.io/transformer-from-scratch/) |
+| **[rag-retrieval-lab](https://github.com/enxo7899/rag-retrieval-lab)** | A retrieval lab that picks the chunker, retriever and reranker on a tuning set and reports them on held-out questions with confidence intervals, plus an answer gate that abstains when the evidence is weak. nDCG@10 0.814 on held-out questions against 0.619 for the baseline. | [Open the lab](https://enxo7899.github.io/rag-retrieval-lab/) |
+| **[vector-index-from-scratch](https://github.com/enxo7899/vector-index-from-scratch)** | Nearest-neighbour search written from scratch: exact, HNSW, IVF and product quantisation, with the recall and speed trade-off measured. On 100,000 vectors HNSW keeps recall@10 at 0.964 while answering about 23 times faster than exact search. | [Watch a search](https://enxo7899.github.io/vector-index-from-scratch/) |
+| **[lora-from-scratch](https://github.com/enxo7899/lora-from-scratch)** | LoRA fine-tuning written by hand in numpy and compared with full fine-tuning on the same model. A rank 4 adapter trains 32,768 parameters instead of 875,264 and forgets less of the original domain. Adapters swap live in the browser. | [Swap adapters](https://enxo7899.github.io/lora-from-scratch/) |
+| **[llm-inference-lab](https://github.com/enxo7899/llm-inference-lab)** | Inference optimisations implemented and measured one by one: KV cache, int8 and int4 quantisation, speculative decoding and batching. The KV cache is 108 times faster at 127 tokens of context, and int8 cuts the weights to a third of their size at the same perplexity. | [Run the bench](https://enxo7899.github.io/llm-inference-lab/) |
 
 ## What I can build for you
 
