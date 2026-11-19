@@ -25,6 +25,7 @@ Eight projects that show how I build AI systems under the hood. Each runs live i
 |---|---|---|
 | **AI chatbot for your website and WhatsApp**: answers from your own info, books, captures leads, hands off to a person | [Try it](https://enxo7899.github.io/ai-chat-assistant/) | [ai-chat-assistant](https://github.com/enxo7899/ai-chat-assistant) |
 | **AI booking agent / MCP server** with guardrails, staff approvals and an audit log | [Try it](https://enxo7899.github.io/bookings-mcp/) | [bookings-mcp](https://github.com/enxo7899/bookings-mcp) |
+| **AI phone receptionist (Vapi, Retell)**: answers calls, books jobs, sends gas leaks and floods to safety, never invents prices | [Call it](https://enxo7899.github.io/voice-receptionist/) | [voice-receptionist](https://github.com/enxo7899/voice-receptionist) |
 | **Business automation with n8n, Make or Zapier**: enquiry triage, invoice extraction, daily reports | [Live demo](https://enxo7899.github.io/n8n-business-automations/) | [n8n-business-automations](https://github.com/enxo7899/n8n-business-automations) |
 | **Messy emails and spreadsheets into a clean CRM**, with measured accuracy | [Try it](https://enxo7899.github.io/inbox-to-crm/) | [inbox-to-crm](https://github.com/enxo7899/inbox-to-crm) |
 | **Invoice and document extraction**: supplier PDFs into spreadsheet rows, with the maths checked | [Try it](https://enxo7899.github.io/invoice-to-sheet/) | [invoice-to-sheet](https://github.com/enxo7899/invoice-to-sheet) |
